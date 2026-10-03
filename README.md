@@ -82,13 +82,13 @@ Fake and AI-generated reviews distort purchase decisions and erode trust in onli
 
 Ratings are heavily skewed positive: **5-star reviews make up 60.7%** of the data, followed by 4-star (19.7%). Ratings of 1–3 stars together account for under 20%. This skew is typical of e-commerce platforms, but it is also a known signature that fake-review campaigns exploit.
 
-![Rating proportions](images/rating_distribution.png)
+![Rating proportions](Images/rating_distribution.png)
 
 ### Review length distribution
 
 Review length is strongly right-skewed: most reviews are under ~250 characters, with a long tail beyond 1,400 characters. Split by label, `CG` reviews cluster tightly at the short end, while `OR` reviews spread much wider and make up most of the long tail. The two classes overlap heavily in the short range, so **length alone is not enough to separate them** — the models are likely leaning on lexical and stylistic features, with length as at most a supporting signal.
 
-![Review length distribution](images/review_length_distribution.png)
+![Review length distribution](Images/review_length_distribution.png)
 
 ---
 
@@ -117,7 +117,7 @@ Review length is strongly right-skewed: most reviews are under ~250 characters, 
 | Decision Tree | 75.10% | 75.17% | 74.94% | 75.06% |
 | KNN (k=5) | 61.86% | 57.11% | **95.27%** | 71.41% |
 
-![All model metrics](images/model_metrics_comparison.png)
+![All model metrics](Images/model_metrics_comparison.png)
 
 ### Error breakdown (14,151 test reviews)
 
@@ -132,13 +132,13 @@ Review length is strongly right-skewed: most reviews are under ~250 characters, 
 
 *False-flag rate = FP ÷ 7,076 genuine reviews.*
 
-![Confusion matrices](images/confusion_matrices.png)
+![Confusion matrices](Images/confusion_matrices.png)
 
 ### Earlier accuracy comparison
 
 An earlier accuracy comparison from the model-comparison notebook shows nearly identical results (within ~0.35 percentage points of the final evaluation above) and the same ranking: SVM 87.27% › Logistic Regression 86.67% › Random Forest 84.88% › Multinomial NB 84.06% › Decision Tree 75.22% › KNN 61.75%.
 
-![Model accuracy comparison](images/model_accuracy_comparison.png)
+![Model accuracy comparison](Images/model_accuracy_comparison.png)
 
 ---
 
