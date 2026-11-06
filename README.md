@@ -227,10 +227,14 @@ print(pipeline.predict(reviews))  # predicted class label for each review (CG / 
 `Python` · `pandas` · `numpy` · `scikit-learn` · `NLTK` · `matplotlib` / `seaborn` · `Plotly Dash` · `joblib`
 
 
-## 🤝 Let's Connect!
+## Skills Demonstrated
 
-Whether you want to discuss the SQL scripts in this repo, talk about remote work trends, or just say hi—my inbox is open!
+Text preprocessing (NLTK) · Feature engineering · Benchmarking six classifiers · Precision/recall/F1 and confusion-matrix evaluation · Model persistence with joblib · Plotly Dash · scikit-learn
 
-* 💼 **LinkedIn:** [Connect with me on LinkedIn](https://www.linkedin.com/in/tarun-panigrahi-523534325)
-* 🐙 **GitHub:** [Follow my latest projects](https://github.com/tarun259952)
-* 📧 **Gmail:** [Send me an email](mailto:tarunpanigrahi259@gmail.com)
+## Contact
+
+Questions about the models, the evaluation or the dashboard? Feel free to reach out.
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/tarun-panigrahi-523534325)
+- 🐙 [GitHub](https://github.com/tarun259952)
+- 📧 [Email](mailto:tarunpanigrahi259@gmail.com)
